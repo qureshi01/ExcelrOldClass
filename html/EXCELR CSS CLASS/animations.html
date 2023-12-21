@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: aquamarine;
+            color: red;
+            animation-name: changecolor;
+            animation-duration: 6s;   /* ANIMATION DURATION IS MUST FOR ANIMATION */
+            animation-delay: 1s; /* CAN PROVIDE NEGATIVE VALUE ALSO. TO BEGIN EARLY */
+            animation-iteration-count: 4; /* NO:OF TIMES ANIMATION SHOULD OCCUR */
+            animation-direction: normal; /* HOW TO OCCUR ANIMATION */
+            animation-timing-function: ease-in;
+            animation-fill-mode: forwards;
+        }
+
+        /* @keyframes changecolor{
+            from{background-color: brown;}
+            to{background-color: blue;}
+        } */
+
+        @keyframes changecolor{
+            0%{width: 150px; height: 200px;}
+            25%{color: black; background-color: red; width:300px; height: 400px;}
+            50%{width: 450px; height: 600px;}
+            100%{width: 600px; height: 800px;}
+
+        }
+        body{
+            background-color: blue;
+        }
+        /* body{
+            background-image: url(https://i.pinimg.com/736x/3e/fa/03/3efa0311f51635ca6e6980968979d6e7.jpg);
+            animation-name: img1;
+            animation-duration: 10s;
+        }
+
+        @keyframes img1{
+            from{background-image: url(https://i.pinimg.com/736x/f7/05/0e/f7050ec82fd087e8d1531acd39643903.jpg);}
+            to{background-image: url(https://awbi.org/wp-content/uploads/2023/06/image-5-1024x1024.png);}
+
+        } */
+
+        @media screen and(max-width: 992px){
+            body{
+                background-color: red;
+            }
+        }
+            
+        
+    </style>
+</head>
+<body>
+    <h1>This Is A Class About Animation On CSS !!!</h1>
+    <div>Example Zone</div>
+</body>
+</html>

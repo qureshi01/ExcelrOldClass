@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            position: relative;
+            margin-left: 500px; 
+            width: 100px;
+            height: 100px;
+            background-color: aquamarine;
+            transition: width 4s, height 10s, background-color 5s, margin-left 4s, transform 4s;
+            /* transition-property: width;
+            transition-duration: 4s; */
+            transition-timing-function: ease;
+            transition-delay: 2s;
+
+        }
+        div:hover{
+            width: 400px;
+            height: 400px;
+            background-color: blue;
+            margin-left: 10px;
+            transform: rotate(180deg);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>This Is A Class About Transition On CSS !!!</h1>
+    <div>Example Zone</div>
+</body>
+</html>

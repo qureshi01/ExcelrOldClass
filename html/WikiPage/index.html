@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body>
+    <style>
+   .heading{
+    text-align: center;
+   }
+
+   a{
+    list-style: none;
+    text-decoration: none;
+    font-size: 25px;
+    color: whitesmoke;
+   }
+
+   .players1{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 25px;
+    color: whitesmoke;
+   }
+
+   .second{
+    padding-top: 20px;
+    background-color: indianred;
+   }
+
+   .carousel{
+    display: flex;
+    padding-left: 220px;
+    padding-top: 20px;
+    width: 1000px;
+    padding-bottom: 20px;
+   }
+
+    </style>
+
+    <!-- NAVBAR STARTS -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="../WikiPage/img/th.jpg" alt="Bootstrap" width="30" height="30">
+            </a>  
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a class="navbar-brand" href="#">WikiPage</a>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="aboutus.html">About Us</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+
+    <!-- NAVBAR ENDS -->
+
+    <section class="main">
+        <div class="container-fluid">
+            <h1 class="font-monospace heading">Indian Cricket Team</h1>
+            
+            <div class="row">
+                <div class="col-12 ">
+                    <div class="row">
+                        <div class="col-4 bg-black">
+                          <div id="simple-list-example" class="d-flex flex-column gap-2 simple-list-example-scrollspy ">
+                            <h5 class="players1">Main Players</h5>
+                            <a class="p-1 rounded" href="#simple-list-item-1">Virat Kohli</a>
+                            <a class="p-1 rounded" href="#simple-list-item-2">Sachin Tendulkar</a>
+                            <a class="p-1 rounded" href="#simple-list-item-3">MS Dhoni</a>
+                            <a class="p-1 rounded" href="#simple-list-item-4">Rohit Sharma</a>
+                            <a class="p-1 rounded" href="#simple-list-item-5">Gautham Gambhir</a>
+                          </div>
+                        </div>
+                        <div class="col-8 bg-primary">
+                          <div data-bs-spy="scroll" data-bs-target="#simple-list-example" data-bs-offset="0" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+                            <h4 id="simple-list-item-1" class="text-center"><span style="text-decoration: underline;">Virat Kohli</span></h4>
+                            <p>Virat Kohli is an Indian cricketer who plays for India national cricket team. He was born in Delhi, India on November 5, 1988. Virat is the first player in ICC cricket history to win all 3 ICC awards in a single year- ICC ODI player of the year, ICC Test player of the year and ICC Player of the year award in 2018. He is rated as one of the best batsmen in the world.</p>
+
+
+                            <h4 id="simple-list-item-2"  class="text-center"><span style="text-decoration: underline;">Sachin Tendulkar</span></h4>
+                            <p>Sachin Ramesh Tendulkar (born 24 April 1973 in Mumbai) is a former Indian cricketer. He has the highest number of runs in both Test cricket and One Day Internationals. He also has the highest number of centuries in both formats of the game. His last Test match being played against the West Indies. He always honoured better players than him like Garfield Sobers or Don Bradman. Sachin Tendulkar is one the richest cricketer of India.</p>
+
+
+                            <h4 id="simple-list-item-3"  class="text-center"><span style="text-decoration: underline;">MS Dhoni</span></h4>
+                            <p>Mahendra Singh Dhoni, commonly known as MS Dhoni and Mahi, is an Indian cricketer player and was a former captain of the Indian cricket team. Dhoni is a right-handed batsman.
+
+                            The Indian cricket team won the 2011 Cricket World Cup under his captainship. His Test cricket and One Day International records are the best of all Indian captains to date. He took over the ODI captaincy from Rahul Dravid in 2007 and led the team to its first ever inter-country ODI series wins in Sri Lanka and New Zealand. Dhoni also holds the post of Vice-President of India Cements Ltd. after resigning from Air India. India Cements is the owner of the Indian Premier League team Chennai Super Kings, and Dhoni has been its captain since the first edition of IPL.</p>
+
+
+                            <h4 id="simple-list-item-4"  class="text-center"><span style="text-decoration: underline;">Rohit Sharma</span></h4>
+                            <p>Rohit Gurunath Sharma (born 30 April 1987) is an Indian international cricketer. He is the current captain of the Indian national team. Rohit is known for his six hitting capabilities and is considered as one of the best white ball cricketer ever.</p>
+
+
+                            <h4 id="simple-list-item-5"  class="text-center"><span style="text-decoration: underline;">Gautham Gambhir</span></h4>
+                            <p>Gautam Gambhir is an Indian politician, philanthropist and former cricketer, who has played all formats of the game. He played an integral role in India's win in two ICC Knock-outs. He is a current member of the Lok Sabha since 2019.</p>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        
+        </div>
+    </section>
+
+    <!-- PLACEHOLDER STARTS -->
+
+    <span class="placeholder col-12 placeholder-xs"></span>
+
+    <!-- PLACEHOLDER ENDS -->
+
+    <!-- CARDS STARTS -->
+    <section class="second">
+        <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <div class="card" style="width: 18rem; height: 35rem;">
+                    <img src="../WikiPage/img/1983.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">1983 ODI WC</h5>
+                      <p class="card-text text-wrap">The 1983 Cricket World Cup (officially the Prudential Cup '83) was the 3rd edition of the Cricket World Cup tournament. It was held from 9 to 25 June 1983 in England and Wales and was won by India. Eight countries participated in the event.</p>
+                      <a href="odi.html" class="btn btn-primary">Continue reading</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-4">
+                <div class="card" style="width: 18rem; height: 35rem;">
+                    <img src="../WikiPage/img/2007.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">2007 T20 WC</h5>
+                      <p class="card-text">The 2007 ICC World Twenty20 was the inaugural Twenty20 International cricket world championship, contested in South Africa from 11 to 24 September 2007. India won the tournament, beating Pakistan in the final...........................</p>
+                      <a href="#" class="btn btn-primary">Continue reading</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-4">
+                <div class="card" style="width: 18rem; height: 35rem;">
+                    <img src="../WikiPage/img/2011.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">2011 ODI WC</h5>
+                      <p class="card-text">The 2011 ICC Cricket World Cup was the tenth Cricket World Cup. It was played in India, Sri Lanka, and for the first time in Bangladesh. India won the tournament, defeating Sri Lanka by 6 wickets in the final at Wankhede Stadium in Mumbai, thus becoming the first country to win the Cricket World Cup final on home soil.</p>
+                      <a href="#" class="btn btn-primary ">Continue reading</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- CARDS ENDS -->
+
+     <!-- PLACEHOLDER STARTS -->
+
+     <span class="placeholder col-12 placeholder-xs"></span>
+
+     <!-- PLACEHOLDER ENDS -->
+   
+    <!-- CAROUSEL STARTS -->
+
+    <section class="carousel">
+    
+        <div id="carouselExampleCaptions" class="carousel slide" >
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../WikiPage/img/Indian Men Team.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>India Men Team</h5>
+                  <p>Captained by ROHIT SHARMA.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="../WikiPage/img/Men Team Coach.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Rahul Dravid</h5>
+                  <p>India Men Team Coach</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="../WikiPage/img/India Women Team.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>India Women Team</h5>
+                  <p>Captained by Harmanpreet Kaur.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+
+    <!-- CAROUSEL ENDS -->
+
+    <!-- PLACEHOLDER STARTS -->
+
+        <span class="placeholder col-12 placeholder-xs"></span>
+
+    <!-- PLACEHOLDER ENDS -->
+
+    <!-- COLLAPSE BUTTON  STARTS -->
+
+    <p class="d-inline-flex gap-1 button">
+        <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button"
+            aria-expanded="false" aria-controls="multiCollapseExample1">Men Team</a>
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2"
+            aria-expanded="false" aria-controls="multiCollapseExample2">Women Team</button>
+    </p>
+    <div class="row">
+        <div class="col">
+            <div class="collapse multi-collapse" id="multiCollapseExample1">
+                <div class="card card-body">
+                    Some placeholder content for the first collapse component of this multi-collapse example. This panel is
+                    hidden by default but revealed when the user activates the relevant trigger.
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="collapse multi-collapse" id="multiCollapseExample2">
+                <div class="card card-body">
+                    Some placeholder content for the second collapse component of this multi-collapse example. This panel is
+                    hidden by default but revealed when the user activates the relevant trigger.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- COLLAPSE BUTTON ENDS -->
+
+
+    <!-- PLACEHOLDER STARTS -->
+
+        <span class="placeholder col-12 placeholder-xs"></span>
+
+    <!-- PLACEHOLDER ENDS -->
+
+    <!-- FORM STARTS -->
+
+    <form>
+        <div class="row mb-3">
+          <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+          <div class="col-sm-10">
+            <input type="email" class="form-control" id="inputEmail3">
+          </div>
+        </div>
+        <div class="d-grid gap-2">
+            <button class="btn btn-primary" type="button">Sign In For Newsletter</button>
+          </div>
+      </form>
+
+    <!-- FORM ENDS -->
+
+      <!-- PLACEHOLDER STARTS -->
+
+      <span class="placeholder col-12 placeholder-xs"></span>
+
+      <!-- PLACEHOLDER ENDS -->
+    
+    <!-- FOOTER STARTS -->
+
+
+    <!-- FOOTER ENDS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>

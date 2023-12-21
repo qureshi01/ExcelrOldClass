@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .main{
+        position: relative;
+        margin-top: 5px;
+        margin-left: 5px;
+        background-color: green;
+        width: 100px;
+        height: 100px;
+        animation-name: box;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
+    }
+    .main p{
+        display: none;
+    }
+    @keyframes box{
+        100%{margin-left: 105px; margin-top: 105px;}
+    }
+</style>
+<body>
+    <section class="main">
+        <p>P</p>
+    </section>
+</body>
+</html>

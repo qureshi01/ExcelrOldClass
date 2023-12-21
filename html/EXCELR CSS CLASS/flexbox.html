@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+    .flex-container , .second{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        /*flex-flow: row wrap-reverse;*/
+        justify-content: space-around;
+        /*align-items: flex-start;*/ /*CONSIDERING IT HAS DIFFERENT ROWS AND ALIGNING ACCORDING TO THE ROW */
+        height: 600px;
+        background-color: bisque;
+        overflow: scroll;
+        align-content: center; /* CONSIDERING IT HAS ONE ROW AND ALIGNING IT ACCORDINGLY */
+
+
+    }
+    .flex-container>div{
+        width: 100px;
+        margin: 20px;
+        text-align: center;
+        background-color: aquamarine;
+        font-size: 20px;
+        line-height: 100px;
+        
+    }
+   
+</style>
+<body>
+    <div class="flex-container">
+        <div>This is A</div>
+        <div> A </div>
+        <div> B </div>
+        <div> C </div>
+        <div>This is A</div>
+        <div>This is A</div>
+        <div>This is A</div>
+        <div>This is A</div>
+        <div>This is A</div>
+        <div>This is A</div>
+        <div>This is A</div>
+        <div>This is A</div>
+        <div>This is A</div>
+        <div>This is A</div>
+        <div>This is A</div>
+        <div>This is A</div>
+    </div>
+    <p>HELLO</p>
+    <div class="second">
+       <p>WELCOME</p> 
+    </div>
+</body>
+</html>

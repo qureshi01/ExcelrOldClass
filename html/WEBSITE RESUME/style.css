@@ -1,0 +1,476 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+
+/*NAVBAR*/
+
+
+nav {
+    left: 0%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    font-family: 'Times New Roman', Times, serif;
+}
+.nav-links{
+    display: flex;
+    justify-content: normal;
+    width: 30%;
+    list-style: none;
+}
+
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 14px 16px;
+    text-align: justify;
+}
+
+.nav-links li a:hover:not(.active){
+    background-color: rgb(5, 150, 102);
+}
+
+.nav-links li a.active {
+    background-color: rgb(177, 0, 74);
+}
+
+.first{
+    color: white;
+    font-family: 'Times New Roman', Times, serif ;
+}
+
+
+/*BODY*/
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(./img/bgimage.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.pos_cen{
+    position: absolute;
+    width: 70%;
+    left: 15%;
+    top: 20%;
+    background-color:transparent;
+  
+}
+
+p{
+    color:white;
+    font-size: 50px;
+}
+
+.firstbody{
+    padding: 119px 25px 90px;
+    background-color: transparent;
+    min-height: 50vh;
+}
+
+.email{
+    background-color: transparent;
+}
+
+.email a{
+    display: inline-block;
+    left: 15%;
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    background-color: transparent;
+    padding: 10px 30px;
+    align-content: center;
+    position: relative;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+
+.email a:hover{
+    border: 1px solid #f44336;
+    background: #f44336;
+    transition: 1s;
+}
+
+img{
+    float: right;
+    width: 530px;
+    height: 557px;
+    max-width: 100%;
+    border-radius: 50px;
+    position: relative;
+    top: -80px;
+}
+
+
+
+.socialicons1{
+    background-color: transparent;
+    padding: 7px 1px 20px;
+    min-width: 1065px;
+}
+
+.socialicons1 a{
+    background-color: transparent;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socialicons1 a i{
+    background-color: transparent;
+    font-size: 2em;
+    color: white;
+    opacity: 0.9;
+}
+
+.socialicons1 a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+
+.socialicons1 a:hover i{
+    color: white ;
+    transition: 0.5s;
+}
+
+/*.mainbody{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(./img/bgimage2.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: inline-block;
+    justify-content: center;
+}*/
+
+.about{
+    font-size: 15px;
+    color: white;
+    height: 100vh;
+    max-width: 300px;
+    padding: 20px;
+    position: absolute;
+    top: 125%;
+    width: 70%;
+    left: 15%;
+    background-color:transparent;
+}
+
+.about h1{
+    font-size: 20px;
+}
+
+.about aside{
+    position: absolute;
+    top: 10%;
+
+}
+
+.about2{
+    font-size: 15px;
+    color: white;
+    height: 100vh;
+    max-width: 300px;
+    padding: 20px;
+    position: absolute;
+    top: 125%;
+    width: 70%;
+    right: 15%;
+    background-color:transparent;
+}
+
+.about2 h1{
+    font-size: 20px;
+    position: absolute;
+    left: 0%;
+}
+
+.about2 ul{
+    position: absolute;
+    top: 10%;
+
+}
+
+.photos{
+    background-color: transparent;
+}
+
+.src1{
+    position: absolute;
+    width: 20%;
+    top: 165%;
+    left: 5%;
+    border-radius: 50px;
+    height: 70%;    
+}
+
+.src2{
+    position: absolute;
+    width: 40%;
+    top: 165%;
+    left: 30%;
+    border-radius: 50px;
+    height: 70%;     
+}
+
+.src3{
+    position: absolute;
+    width: 20%;
+    top: 165%;
+    left: 75%;
+    border-radius: 50px;
+    height: 70%;      
+}
+
+.secondbody{
+    display: block;
+    position: absolute;
+    top: 250%;
+    left: 15%;
+}
+
+.about3, .about4, .about5{
+    color: #fff;
+}
+
+.h1education{
+    font-size: 20px;
+    position: relative;
+    left: 0%;
+    padding-bottom: 200px;
+}
+
+.h1course{
+    font-size: 20px;
+    position: relative;
+    left: 0%;
+    padding-bottom: 200px;}
+
+.h1WE{
+    font-size: 20px;
+    position: relative;
+    left: 0%;
+    padding-bottom: 200px;}
+
+
+.about3 p{
+    font-size: 20px;
+    position: absolute;
+    left: 250%;
+    top: 0%;
+    width: 200px;
+}
+.about3 aside{
+    font-size: 20px;
+    position: absolute;
+    left: 250%;
+    top: 4%;
+    width: 200px;
+    
+}
+
+.about4 p{
+    font-size: 20px;
+    position: absolute;
+    left: 250%;
+    top: 33.5%;
+    width: 200px;
+}
+.about4 aside{
+    font-size: 20px;
+    position: absolute;
+    left: 250%;
+    top: 37.5%;
+    width: 200px;
+}
+
+.about5 p{
+    font-size: 20px;
+    position: absolute;
+    left: 250%;
+    top: 67%;
+    width: 200px;
+}
+.about5 aside{
+    font-size: 20px;
+    position: absolute;
+    left: 250%;
+    top: 71%;
+    width: 200px;
+}
+
+.brief{
+    color: white;
+    background-color: darkblue;
+    position: relative;
+    top: 1800px;
+    height: 400px;
+}
+#art{
+    position: relative;
+    top: 100px;
+    margin-left: 200px;
+    font-size: 40px;
+    padding-right: 305px;
+    background-color: transparent;
+    justify-content: space-between;
+}
+#artist{
+    position: relative;
+    top: 140px;
+    margin-left: 200px;
+    font-size: 25px;
+    padding-right: 300px;
+    background-color: transparent;
+}
+
+.fourthbody{
+    margin-top: 2000px;
+    display: flex;
+}
+.fifthbody{
+    display: flex;
+    flex-direction: row;
+    margin-top: 200px;
+}
+.sixbody{
+    display: flex;
+    flex-direction: row;
+}
+.img1{
+    width: 350px;
+    height: 350px;
+    position: relative;
+    margin-top: -200px;
+    margin-left: -250px;
+}
+.img2{
+    width: 350px;
+    height: 350px;
+    position: relative;
+    margin-top: 100px;
+    margin-left: -250px;
+}
+.fif-six{
+    display: flex;
+    flex-direction: column;
+}
+.head{
+    color: #fff;
+    width: 500px;
+    margin-top: -150px;
+    margin-left: 200px;
+    height: 100px;
+}
+.head1{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 150%;
+    position: relative;
+    margin-left: 100px;
+    margin-top: -230px;
+}
+.head2{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: 100px;
+    margin-top: 60px;
+}
+.head1 article{
+    font-size: 25px;
+    padding: 15px;
+}
+.head2 p{
+    font-size: 25px;
+    padding: 15px;
+}
+
+.form{
+    margin-top: 2500px;
+}
+
+/*FOOTER*/
+
+footer{
+    background-color: white; 
+    position: relative;
+    top: 1812px;
+}
+
+.footercontainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+.socialicons{
+    display:flex;
+    justify-content: center;
+}
+
+.socialicons a{
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socialicons a i{
+    font-size: 2em;
+    color: white;
+    opacity: 0.9;
+}
+
+.socialicons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+
+.socialicons a:hover i{
+    color: white ;
+    transition: 0.5s;
+}
+.footernav ul{
+    display: flex;
+    justify-content: center;
+}
+.footernav ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.footernav ul li a:hover{
+    opacity: 1;
+}
+
+.footerbottom{
+     background-color: black;
+     padding: 20px;
+     text-align: center;
+}
+.footerbottom p{
+    color: white;
+    font-size: medium;
+}

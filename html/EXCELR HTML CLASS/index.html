@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+    <title>Welcome To Day 3</title>
+</head>
+<body>
+    <h3>We Will Learn Custom Attributes</h3>
+    <ul>
+        <li onclick="showPosition(this);" id="first" data-position="Winner"> First </li>
+        <li onclick="showPosition(this);" id="second" data-position="RunnerUp"> Second </li>
+        <li onclick="showPosition(this);" id="third" data-position="Loser"> Third </li>
+
+
+        <!--onclick function will be running certain functions assigned to it by javascript-->
+        <!--id is a specific tag used to name that list-->
+        <!--data-position is a custom attribute to pass info from HTML to javascript-->
+
+        
+    </ul>
+        <script>
+            function showPosition(value){
+                var position = value.getAttribute("data-position");
+                alert("The "+ value.innerHTML + " is "+ position +".");
+
+            
+            <!--value.innerHTML is calling the value of the list which is assigned for it-->
+
+            }
+            
+        </script>
+    
+</body>
+</html>

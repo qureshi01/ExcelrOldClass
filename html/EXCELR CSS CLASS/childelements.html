@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+    .flex-container , .second{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 600px;
+        background-color: bisque;
+        overflow: scroll;
+        align-content: center;
+    }
+    .flex-container>div{
+        width: 100px;
+        margin: 20px;
+        text-align: center;
+        background-color: aquamarine;
+        font-size: 20px;
+        line-height: 100px;
+        
+    }
+    #shrink{
+        flex-shrink: 10; /*NEED TO CHECK*/
+        flex-basis: 800px;
+    }
+    
+</style>
+<body>
+    <div class="flex-container">
+        <div style="flex-grow:2;">This is A</div>
+        <div style="flex-grow:3;"> A </div>
+        <div style="flex-grow:5;"> B </div>
+        <div> C </div>
+        <div id="shrink">This is D</div>
+        <div style="flex-basis: 200px;">This is E</div>
+        <div>This is F</div>
+    </div>
+    <p>HELLO</p>
+    <div class="second">
+       <p style="align-self: center;" >WELCOME</p> <!--NEED TO CHECK*/-->
+    </div>
+</body>
+</html>
