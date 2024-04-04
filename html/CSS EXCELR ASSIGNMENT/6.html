@@ -21,12 +21,33 @@
         display: none;
     }
     @keyframes box{
-        100%{margin-left: 105px; margin-top: 105px;}
+        0% {
+        transform: translate(0, 0);
     }
+    100% {
+        transform: translate(200px, 0);
+    }
+    }
+
+    .main.reset {
+    animation-name: none; /* Reset animation */
+}
 </style>
 <body>
-    <section class="main">
-        <p>P</p>
+    <section>
+        <div class="main" onclick="resetAnimation()"></div>
     </section>
 </body>
+
+<script>
+
+    function resetAnimation() {
+    var element = document.querySelector('.main');
+    element.classList.add('reset');
+    setTimeout(function() {
+        element.classList.remove('reset');
+    }, 50); // Adjust this delay if needed
+}
+
+</script>
 </html>
